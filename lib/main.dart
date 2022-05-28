@@ -5,10 +5,10 @@ import 'package:studentfirebase/homepage.dart';
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: const FirebaseOptions(apiKey: "AIzaSyDEzrPcyNVpSUVrcE1Pdfsa-md54bapBZE",
-     appId: "1:780926526892:android:89915d54701a0a416d8609",
-      messagingSenderId: "messagingSenderId",
-       projectId: "fir-2a08f")
+    options: const FirebaseOptions(apiKey: "xxx",
+     appId: "xxxx",
+      messagingSenderId: "xxx",
+       projectId: "xxxx")
   );
   runApp(const MyApp());
 }
